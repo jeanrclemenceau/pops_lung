@@ -1,0 +1,78 @@
+/*
+ * Filename: pops_bootstrap_infopage.css
+ * Author: Jean Clemenceau
+ * Date Created: 01/13/2017
+ * Contains the style details for the general information pages for POPS.
+ *
+ * */
+
+/*Defines the styles for the secondary navigation*/
+.subnav{
+  color: #336699;
+}
+.subnav .active{
+  text-decoration: underline;
+  font-size:large !important;
+}
+
+/*Defines the main content blocks*/
+.tut_block{
+  width: 80%;
+  margin: auto;
+  margin-top:15px;
+  text-align: left;
+}
+
+.tut_block_img{
+  margin: auto;
+  margin-top: 9px;
+  margin-bottom: 9px;
+  border: solid #336699 3px;
+  border-radius: 5px;
+  box-shadow: 3px 3px 6px grey;
+}
+
+.tut_block_img_wrapper{
+  margin: auto;
+  max-width: 500px;
+}
+
+/*Defines highligted text*/
+.accent{
+  font-weight: bold;
+}
+.accent2{
+  font-style: italic;
+}
+
+/*Defines styles to mimic query pages*/
+.navbar_sample{
+ color: white;
+ background-color: #336699;
+ border-radius: 3px;
+ padding:1px;
+}
+
+.panel_sample{
+  background: #F1F1F1;
+  border-radius: 3px;
+  padding: 2px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.select-label{
+  font-weight: 500;
+  background-color: lightgrey;
+  margin-bottom: 0px;
+  border-radius: 3px;
+  padding: 1px;
+}
+
+.control-panel-header{
+  font-weight: bold;
+  margin: 5px;
+  background: #D3D3D3;
+  box-shadow:3px 2px 3px #888888;
+  padding: 1px;
+}

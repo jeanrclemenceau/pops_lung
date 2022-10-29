@@ -1,0 +1,92 @@
+/*
+* Filename: pops-mutation_card_style.css
+* Author: Jean Clemenceau
+* Date Created: 11/02/2016
+* Contains the styles for the mutation cards.
+*
+* */
+
+.mutCardCLineTitle{
+  font-size: 180%;
+  font-weight: bold;
+  margin-top: 5px;
+  margin-left: 10px;
+  margin-bottom: 5px;
+  margin: auto;
+}
+
+.gene_block{
+  margin-bottom: 10px;
+  width: 80%;
+  margin: auto;
+}
+
+.gene_location{
+  width: 100%;
+  box-shadow: 2px 2px 5px grey;
+  margin-bottom: 10px;
+}
+.mut_block{
+  margin-bottom: 20px;
+  background-color: lightgray;
+  border-radius: 5px;
+  padding: 1px;
+  box-shadow: 2px 2px 5px grey;
+}
+
+.mut_info_block{
+  margin-bottom: 10px;
+}
+
+.th{
+  /*text-align: right;*/
+  font-weight:500;
+}
+
+.td{
+  /*text-align: left;*/
+  padding-left:0;
+  font-weight:300;
+}
+
+#cellLineList{
+  margin-top: 10px;
+}
+
+.cellLineList{
+  border-radius: 3px;
+  padding: 1px;
+}
+
+/*Result panel width-specific rules*/
+@media (min-width:767px) {
+  .mutCardCLineTitle{
+    text-align: left;
+  }
+  .th{
+    text-align: right;
+  }
+  
+  .td{
+    text-align: left;
+    padding-left:0;
+  }
+}
+
+@media (max-width:767px) {
+  .mutCardCLineTitle{
+    text-align: center;
+  }
+  .gene_block{
+  }
+  .mut_block{
+    width: auto;
+    display: inline-block;
+    padding-left: 4%;
+    padding-right:4%;
+  }
+  .mut_bock.row{
+    margin-left: 2px;
+    margin-right:2px;
+  }
+}

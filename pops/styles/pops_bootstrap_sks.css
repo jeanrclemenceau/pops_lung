@@ -1,0 +1,49 @@
+/*
+ * Filename: pops_bootstrap_sks.css
+ * Author: Jean Clemenceau
+ * Date Created: 09/14/2016
+ * Contains the styles for the bootstrap grid for SKS.
+ *
+ * */
+
+ .sksGrid{
+   border:1px solid #BBBBBB;
+ }
+ .sksGridHeader{
+   background-color: #EEEEEE;
+   color: black;
+   font-weight: bold;
+   font-size: larger;
+   text-align: center;
+ }
+ .sksGridHeaderCell{
+     border: 1px solid #DDDDDD;
+ }
+.sksGridContent{}
+
+.paginationBwd_plot{
+  display:inline-block;
+  width:10%;
+}
+.headTitle_plot{
+  display:inline-block;
+  width:75%;
+}
+.paginationFwd_plot{
+  display:inline-block;
+  width:10%;
+}
+
+.sksPlotImg{}
+
+.sksDataModal{
+  margin: auto;
+  margin-bottom: 10px;
+  width: 80%;
+  font-size: small;
+}
+th.sksDataModalHead{
+  padding-bottom:5px;
+  /*border-bottom: 1px solid grey;*/
+  font-size: large;
+}
