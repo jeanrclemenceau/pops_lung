@@ -1,0 +1,44 @@
+/*
+ * Filename: pops_bootstrap_slider_custom.css
+ * Author: Jean Clemenceau
+ * Date Created: 05/23/2016
+ * Contains the styles for the POPS slider bars.
+ *
+ * */
+ .slider{
+   width: 70% !important;
+ }
+
+.slider-track-low{
+  background: rgb(61, 112, 163);
+  box-shadow: 1px 1px 2px #888888;
+}
+.slider-track-high{
+  background: rgb(61, 112, 163);
+  box-shadow: 1px 1px 2px #888888;
+}
+.slider-selection{
+  background: transparent;
+}
+.slider-handle.custom::before{
+  font-size:  large;
+  line-height: 20px;
+  content: '\25C9';
+  color: red;
+  text-shadow: 1px 1px 1px #444444;
+}
+
+.slider-disabled .slider-track-high{
+ background: transparent;
+}
+.slider-disabled .slider-handle.custom::before{
+  color:gray;
+  text-shadow: none;
+  content: '\25CF';
+  background: none;
+  font-size:  xx-large;
+}
+
+.sliderValue{
+  font-size: small;
+}

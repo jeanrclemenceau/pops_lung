@@ -1,0 +1,123 @@
+/*
+ * Filename: pops_bootstrap.css
+ * Author: Jean Clemenceau
+ * Date Created: 03/04/2016
+ * Contains the personalization of Bootstrap for the POPS-Lung website.
+ *
+ * */
+
+/*Defines the styles for the header and navigation*/
+
+/*where navbar expands*/
+/*@screen-sm-min:  850px;*/
+/*@media(screen-sm-min: 850px);*/
+
+.navbar{
+   color: white;
+   background-color: #336699;
+   box-shadow: 5px 5px 5px #888888;
+   border-radius: 0;
+   border:none;
+   margin-bottom: 10px;
+}
+
+button.navbar-toggle{
+  border: none;
+}
+
+.hdr_img{
+  height: 100%;
+  background: white;
+  border-radius: 5px;
+  vertical-align: middle;
+  display: inline-block !important;
+}
+.hdr_name{
+  font-size: x-large;
+  display: inline-block;
+  vertical-align: middle;
+}
+.navbar-brand{
+  color: white !important;
+  padding-top: 5px;
+  font-size: large;
+}
+
+/*Color of active navbar dropdown menus*/
+.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:focus, .navbar-inverse .navbar-nav > .open > a:hover{
+  background-color:#336699;
+}
+
+#navigation .active{
+ text-decoration: underline;
+ font-size:large !important;
+}
+#navigation .active_query{
+ text-decoration: underline;
+ line-height: 150%;
+}
+
+#navigation ul.nav a{
+  color: white !important;
+}
+#navigation ul.nav a:hover{
+ text-decoration: underline;
+ background:none;
+}
+
+.dropdown-toggle{
+  display:inline;
+}
+.dropdown-menu{
+  border: none;
+  background-color: #336699;
+  box-shadow: 5px 5px 5px #888888;
+}
+
+/*Defines syles for main content*/
+.mainLoginTitle{
+  color:red;
+  margin:auto;
+  text-shadow: 2px 2px 2px #888888;
+}
+.mainLoginImg{
+  max-width:30%;
+  margin:auto;
+}
+.pageTitle{
+  color: #114477;
+  text-shadow: 2px 2px 2px #888888;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.center-block {float: none !important}
+
+/*Defines style for footer*/
+.panel-footer{
+  margin-top:20px;
+  text-align: center;
+  background: #D3D3D3;
+  border-radius: 0;
+  box-shadow: 5px 5px 5px #888888;
+}
+.footer-img{
+  margin:auto;
+}
+
+.failAlert{
+  margin: auto;
+  font-size: large;
+  color: red;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 5px 5px 5px #888888;
+}
+.notificationAlert{
+  margin: auto;
+  font-size: large;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  /*text-shadow: 5px 5px 5px #888888;*/
+}

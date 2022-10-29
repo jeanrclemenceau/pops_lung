@@ -1,0 +1,220 @@
+/*
+ * Filename: pops_bootstrap_query.css
+ * Author: Jean Clemenceau
+ * Date Created: 05/23/2016
+ * Contains the styles for the POPS query pages.
+ *
+ * */
+
+/*Styles for main page*/
+ .pops-control-panel{
+   color: black;
+   background-color: #F1F1F1;
+   box-shadow: 5px 5px 5px #888888;
+   padding-top: 10px;
+ }
+ .navbar{
+   margin-bottom: 0 !important;
+   box-shadow: none !important;
+ }
+.control-panel-header{
+  font-weight: bold;
+  margin: 5px;
+  background: #D3D3D3;
+  box-shadow:3px 2px 3px #888888;
+}
+#control-panel-filters{
+  display: none;
+}
+
+hr{
+  margin-top: 0;
+  margin-bottom: 10;
+  border: solid #AAAAAA 1px;
+  box-shadow:3px 2px 3px #888888;
+}
+.pops-control-panel button{
+  margin-bottom: 15px;
+}
+
+.pops-results-panel{
+  margin-top: 20px;
+  min-height: 300px;
+}
+.placeHolderImg{
+  opacity: 0.4;
+  max-height: 300px !important;
+  margin: auto;
+  /*text formatting*/
+  font-size: xx-large;
+  color: red;
+  font-weight: bold:
+}
+
+.select-label{
+  width: 100%;
+  font-weight: 500;
+  background-color: lightgrey;
+  margin-bottom: 0px;
+  border-radius: 3px;
+}
+
+/*TODO fix!*/
+/*@media (max-width: 978px) {
+    .display_list_spacer {
+      padding:0;
+    }
+  }
+.display_list_spacer{
+  padding-top: 30px;
+}*/
+
+/*Styles for results*/
+.na_text{
+  color: grey;
+}
+
+#result_filters_2{
+  display:none;
+}
+#filter_mode_toggle{
+  float:right;
+  margin-right: 10%;
+}
+
+/*Styles for the result panels*/
+.results{
+    width:100%;
+    border-collapse:collapse;
+    /*border:1px solid gray;*/
+    padding:3px 1px 2px 1px;
+    vertical-align: middle;
+    color: black;
+    font-family: sans-serif;
+    margin: 0;
+}
+th.results{
+    font-size: small;
+    text-align:center;
+    width: 50px;
+}
+#headTitle{
+    font-size: medium;
+    text-align:center;
+    vertical-align: middle;
+    border:none;
+}
+#paginationBwd{
+  font-size: small;
+  border-right: none;
+  text-align:left;
+  vertical-align: middle;
+}
+#paginationFwd{
+  font-size: small;
+  border-left: none;
+  text-align:right;
+  vertical-align: middle;
+}
+.pagination{
+  background: none;
+  margin:0;
+  display:inline-block;
+}
+caption.results{
+    /*border:1px solid gray;*/
+    font-size: small;
+    text-align:center;
+    font-weight: bold;
+    width: 100%;
+    display: table-caption;;
+}
+td.results{
+    /*border:1px solid gray;*/
+    text-align:left;
+    font-size: small;
+    background: none;
+    width: 50px;
+}
+td.plots{
+    /*border:1px solid gray;*/
+    text-align:center;
+    vertical-align: middle;
+    font-size: small;
+    background: none;
+    width: auto;
+}
+td.res_info{
+  vertical-align: middle !important;
+}
+.tinycell{
+    width: 10px !important;
+    text-align: center !important;
+    vertical-align: middle !important;
+    padding: 0 !important;
+}
+
+td.libname{
+    border:1px solid gray;
+    text-align:left;
+    font-size: small;
+    width: 10px;
+}
+
+.heatmapRowTable{
+  padding: 0 !important;
+}
+.heatmap{
+  border-top: none;
+  border-bottom: none;
+  margin: 0px;
+  height: 100%;
+}
+
+.heatmapkey{
+    border-collapse:collapse;
+    border:1px solid gray;
+    padding: 0 !important;
+}
+table.heatmapkey{
+  margin: 0;
+  width:100% !important;
+}
+td.heatmapkey{
+    border-collapse:collapse;
+    border:none !important;
+    border-top:2px solid black;
+    padding:1px 1px 1px 1px;
+    font-family: sans-serif;
+    font-size: x-small;
+    width:18px;
+}
+
+/*Result panel width-specific rules*/
+@media (max-width:767px) {
+  .tinycell{
+    border:none !important;
+  }
+}
+
+/*Table Filtering and Customization*/
+.highlighted{
+    border: 3px solid black !important;
+}
+.highlightedRed{
+    border: 3px solid red !important;
+}
+.blurred{
+  opacity: 0.3;
+}
+
+/*Defines style for extra features*/
+.info_box{
+     position:fixed !important;
+     padding: 5px;
+     border-radius: 5px;
+     border: 2px solid black;
+     bottom:20;
+     left: 20;
+     box-shadow: 5px 5px 5px #888888;
+}

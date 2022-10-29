@@ -1,0 +1,42 @@
+/*
+ * Filename: elasticnet_style.css
+ * Author: Jean Clemenceau
+ * Date Created: 05/15/2015
+ * Contains the basic style information for the show_elasticnet pages.
+ *
+ * */
+
+body{
+    background: #EEEEEE;
+}
+.realBody{
+    background: white;
+    margin: auto;
+    text-align: center;
+    max-width:900px;
+}
+ul{
+    list-style-type: none;
+    margin-top: 1px;
+    padding:0;
+    padding-top: 0;
+}
+li{
+    list-style-type: none;
+    text-align: center;
+    margin-top: none;
+    padding:0;
+    display: inline;
+}
+a{
+    display: inline-block;
+}
+a:visited{
+    color: blue;
+}
+.selected{
+    pointer-events:none;
+    font-weight:bold;
+    text-decoration:underline !important;
+    color:black !important;
+}
