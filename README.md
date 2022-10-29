@@ -29,7 +29,7 @@ Once dependencies are intalled do the following:
 
 1. Build the MySQL POPS database using the given dump file (`POPS_LUNG_DB_<version>.sql`)
 1. Copy the contents of `SecuritySettings.php` and replace line 10 of `pops/pops_conf.php'
-1. Update any relevant email addresses and passwords in `pops_conf.php`
+1. Update any relevant email addresses and passwords in `pops/pops_conf.php`
 1. Setup your server for sending STMP emails
 1. Point your httpd apache server to the code directory
 1. Start your httpd server
