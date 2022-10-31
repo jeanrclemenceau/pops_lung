@@ -6,6 +6,8 @@ This is the implementation for the data portal associated with the following pub
 
 > McMillan, E. A., Ryu, M.-J., Diep, C. H., Mendiratta, S., Clemenceau, J. R., Vaden, R. M., Kim, J.-H., Motoyaji, T., Covington, K. R., Peyton, M., Huffman, K., Wu, X., Girard, L., Sung, Y., Chen, P.-H., Mallipeddi, P. L., Lee, J. Y., Hanson, J., Voruganti, S., … White, M. A. (2018). **Chemistry-first approach for nomination of personalized treatment in lung cancer**. *Cell*, 173(4). https://doi.org/10.1016/j.cell.2018.03.028 
 
+The portal can be currently acccessed here: https://pops.biohpc.swmed.edu/pops/
+
 ## Setup
 
 This website is built based on a LAMP stack (Linux, Apache, MySQL, PHP). In order to set it up in your server environment, please install the following:
